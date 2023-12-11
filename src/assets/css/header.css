@@ -1,0 +1,43 @@
+header {
+    /* background-color: #e41f1f; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 0.5px solid #acacac;
+}
+
+.logo {
+    color: rgb(19, 188, 255);
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar :any-link:hover {
+    color: #ff9800;
+}
+
+.login {
+    display: block;
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: #ff9800;
+}

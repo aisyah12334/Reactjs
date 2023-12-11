@@ -1,0 +1,118 @@
+/* home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.background-beranda {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.form-wisata h1 {
+    font-size: 46px;
+    color: white;
+}
+
+.container-fluid.form-wisata {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    width: 103%;
+    height: 400px;
+    margin-left: -4px;
+    margin-top: -15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* Styles for the search input */
+.form-wisata input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(100, 100, 100);
+    outline: none;
+}
+
+.form-wisata main input[type="text"]::placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+.container-fluid.informasi {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.informasi-wisata {
+    width: 48%;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.informasi-wisata span{
+    margin-top: 6%;
+    font-size: 15px;
+}
+
+.container-fluid.ekowisata {
+    margin-top: 20px;
+    padding: 0px 40px;
+}
+
+.lihat-ekowisata { 
+    float:right;
+}
+
+.ekowisata-form {
+    display: flex;
+}
+
+.ekowisata-list {
+    /* border: 1px solid black; */
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.ekowisata-main {
+    padding:10px 20px;
+}
+
+.ekowisata-nama {
+    font-weight: bold;
+    margin: 6px 0px;
+    border-bottom: 1px solid black;
+}
+
+.ekowisata-informasi {
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ekowisata-rating {
+    color: rgb(158, 158, 0);
+    font-size: 20px;
+    text-align: right;
+}
+
+.footer-title {
+    text-align: center;
+}
