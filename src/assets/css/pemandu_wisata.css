@@ -1,0 +1,59 @@
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #39A7FF;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+
+.list-pemandu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.informasi-pemandu {
+    border: 1px solid;
+    padding: 20px; 
+}
+
+.informasi-pemandu .img-pemandu {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informasi-pemandu .pemandu {
+    padding-top: 15px;
+}
+
+.informasi-pemandu .pemandu span {
+    padding-top: 8px;
+    display: block;
+    width: 100%;
+    font: 500;
+}
+
+.informasi-pemandu .hubungi {
+    text-decoration: none;
+    color: white;
+    background-color: #39A7FF;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}

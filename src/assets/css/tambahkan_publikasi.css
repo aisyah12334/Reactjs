@@ -1,0 +1,48 @@
+.title {
+    padding: 10px 20px;
+    display: block;
+    background-color: #E0F4FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dashboard {
+    padding: 20px 20px;
+}
+
+.dashboard .list {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin:20px 0px;
+    text-decoration: none;
+    color: #737373;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.dashboard .list.active {
+    background-color: #39A7FF;
+    color:white;
+}
+
+.form-publikasi {
+   padding:20px;
+   padding-bottom: 5px;
+   background-color: #E0F4FF; 
+}
+
+.form-publikasi div {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-publikasi .posting {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #39A7FF;
+    color: white;
+}
